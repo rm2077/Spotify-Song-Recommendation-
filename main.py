@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import pprint
 pp = pprint.PrettyPrinter()
-CLIENT_ID = "2e078830c9f74d29b2d279c9c9fd9441"
-CLIENT_SECRET = "444cbd70514a4fc4a9d8d561376f2cc7"
+CLIENT_ID = "YOUR OWN"
+CLIENT_SECRET = "YOUR OWN"
 REDIRECT_URL = "http://localhost:8000"
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID, client_secret=CLIENT_SECRET, redirect_uri=REDIRECT_URL))
 
